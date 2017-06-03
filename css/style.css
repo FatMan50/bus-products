@@ -1,0 +1,20 @@
+
+.photo-gallery {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+
+}
+
+.photo-gallery li {object-fit: contain; display: inline-block; }
+
+.photo-gallery img {object-fit: cover;
+	object-position: 50% 50%; /* default value: image is centered*/
+	height: 120px;
+
+  width: 120px;
+  padding: 5px;
+}
+
+.product-rule {padding-top: 35px; padding-bottom: 25px;}
