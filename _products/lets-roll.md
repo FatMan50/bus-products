@@ -17,7 +17,7 @@ price-cad: 1798.
 price-pdf: 999.
 ---
 
-# Let it Rool Product!
+# Let it Roll Product!
 
 <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
 
@@ -38,12 +38,3 @@ price-pdf: 999.
 ## CAD Price: ${{ page.price-cad }}
 
 ## PDF Price: ${{ page.price-pdf }}
-
-<a href="/images/bus-at-the-beach.jpg"
-   data-lightbox="samples"
-   data-title="A Sample Image">
-  <img class="thumbnail"
-       src="/images/bus-at-the-beach.jpg"
-       title="A Sample Image"
-       alt="A Sample Image">
-</a>
