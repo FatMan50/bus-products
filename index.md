@@ -5,7 +5,7 @@
 layout: default
 ---
 
-# [Shop Products]({{ site.url }}/shop/)
+# [Shop Products]({{ site.url }}/shop)
 
 
-# [View the Blog]({{ site.url }}/bus-blog/)
+# [View the Blog]({{ site.url }}/bus-blog)
