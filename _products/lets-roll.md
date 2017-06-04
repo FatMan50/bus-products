@@ -19,7 +19,7 @@ price-pdf: 999.
 
 # Let it Roll Product!
 
-<img src="{{ site.url }}{{ page.image.feature }}" alt="{{ page.title }}">
+<img src="{{ page.image.feature }}" alt="{{ page.title }}">
 
 <div class="product-rule">
 <ul class="photo-gallery">
