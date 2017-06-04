@@ -2,8 +2,12 @@
 layout: post
 title:  "Everyone Needs a School Bus"
 date:   2017-06-01 14:01:44
-categories: school bu
+image:
+ featured: a-whiskey-xmas.jpg
+categories: school bus
 ---
+
+![You will love owning a bus]({{ site.url }}/images/{{ page.image.featured }})
 
 ## Why I love School Buses
 
