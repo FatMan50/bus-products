@@ -2,12 +2,15 @@
 layout: post
 title:  "Everyone Needs a School Bus"
 date:   2017-06-01 14:01:44
-image:
- featured: a-whiskey-xmas.jpg
+featured:
+ - image_path: /images/a-whiskey-xmas.jpg
+   title: Have a drink on the bus, just don't drive!
 categories: school bus
 ---
 
-![You will love owning a bus]({{ site.url }}/images/{{ page.image.featured }})
+{% for featured in page.featured %}
+<img src="{{ site.url }}{{ featured.image_path }}" alt="{{ image.title }}">
+{% endfor %}
 
 ## Why I love School Buses
 

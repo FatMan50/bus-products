@@ -3,11 +3,14 @@ layout: post
 title:  "Welcome to Jekyll, Fuckers!"
 date:   2017-06-02 14:01:44 -0400
 categories: jekyll update
-image:
- featured: lady-shotgun.jpg
+featured:
+ - image_path: /images/lady-shotgun.jpg
+   title: The Lady Knows her guns!
 ---
 
-![The lady klnows her guns]({{ site.url }}/images/{{ page.image.featured }})
+{% for featured in page.featured %}
+<img src="{{ site.url }}{{ featured.image_path }}" alt="{{ image.title }}">
+{% endfor %}
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
