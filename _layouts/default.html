@@ -11,18 +11,7 @@
 
 
       <div class="wrapper">
-        <div class"breadcrumbs">
-  {% for crumb in breadcrumbs %}
-    <a href="{{ crumb.url | prepend:site.baseurl }}">
-      {{
-        crumb.title
-      }}
-    </a>
 
-    {% unless forloop.last == true %}
-    {% endunless %}
-  {% endfor %}
-</div>
         {{ content }}
       </div>
     </main>
