@@ -2,8 +2,8 @@
 layout: default
 title: "The Abide Bus"
 description: "The Abide Bus is the one and only bus you will ever need."
-image:
-  feature: /images/abide-bus-2.jpg
+featured:
+ - image_path: /images/abide-bus-2.jpg
 images:
   - image_path: /images/inside-the-bus.jpg
     title: The Bus is beautiful!
@@ -15,11 +15,14 @@ price: 1200.
 price-cad: 1400.
 price-pdf: 875.
 plan-copy: "Bacon ipsum dolor amet short ribs bresaola rump sirloin. Beef ribs short ribs bacon pig, t-bone sirloin pork belly shankle chuck pork jowl turkey. Short loin beef turkey spare ribs, porchetta swine prosciutto andouille meatloaf shoulder pastrami ground round leberkas sirloin fatback. Short loin andouille frankfurter short ribs bresaola pork belly tri-tip beef prosciutto strip steak ham hock jerky pig bacon. Beef ribs tail ribeye hamburger pork corned beef alcatra ball tip. Beef bacon short loin drumstick hamburger biltong frankfurter doner boudin."
+breadcrumbs: Abide Bus Product
 ---
 
 # This is the Abide Bus Product!
 
-<img src="{{ site.url }}{{ page.image.feature }}" alt="{{ page.title }}">
+{% for featured in page.featured %}
+<img src="{{ site.url }}{{ featured.image_path }}" alt="{{ page.title }}">
+{% endfor %}
 
 <div class="product-rule">
 <ul class="photo-gallery">
