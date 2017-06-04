@@ -3,7 +3,7 @@ layout: default
 title: "The Abide Bus"
 description: "The Abide Bus is the one and only bus you will ever need."
 image:
-  feature: abide-bus-2.jpg
+  feature: /images/abide-bus-2.jpg
 images:
   - image_path: /images/inside-the-bus.jpg
     title: The Bus is beautiful!
@@ -19,7 +19,7 @@ plan-copy: "Bacon ipsum dolor amet short ribs bresaola rump sirloin. Beef ribs s
 
 # This is the Abide Bus Product!
 
-<img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+<img src="{{ site.url }}{{ page.image.feature }}" alt="{{ page.title }}">
 
 <div class="product-rule">
 <ul class="photo-gallery">

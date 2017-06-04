@@ -3,7 +3,7 @@ layout: default
 title: "Lets Roll"
 description: "The Abide Bus is the one and only bus you will ever need."
 image:
-  feature: bus-and-the-bridge.jpg
+  feature: /images/bus-and-the-bridge.jpg
 images:
   - image_path: /images/bus-at-the-doctors.jpg
     title: The Bus is More than you can handle!  
@@ -19,7 +19,7 @@ price-pdf: 999.
 
 # Let it Roll Product!
 
-<img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+<img src="{{ site.url }}{{ page.image.feature }}" alt="{{ page.title }}">
 
 <div class="product-rule">
 <ul class="photo-gallery">
